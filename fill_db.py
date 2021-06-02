@@ -1,5 +1,4 @@
 from pymongo import MongoClient
-from func import fill_vacancies_list, fill_mongodb,find_vacancies
 # заполним БД новостями - ранее загруженные добавлены не будут
 def fill_db(news_list):
     client = MongoClient ('localhost',27017)
